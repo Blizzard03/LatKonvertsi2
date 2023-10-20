@@ -17,7 +17,7 @@ public class Buku {
     private final int batas;
     private final double sewa;
 
-    public Buku(String judul, String jenis, int vol, String mataKuliah, int batas, int sewa) {
+    public Buku(String judul, String jenis, int vol, String mataKuliah, int batas, double sewa) {
         this.judul = judul;
         this.jenis = jenis;
         this.vol = vol;
@@ -25,6 +25,8 @@ public class Buku {
         this.batas = batas;
         this.sewa = sewa;
     }
+
+    
 
     public int hitungSewa(int hari) {
         if (hari > batas) {

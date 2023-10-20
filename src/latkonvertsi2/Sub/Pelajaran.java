@@ -11,5 +11,7 @@ import latkonvertsi2.Master.Buku;
  * @author mariq
  */
 public class Pelajaran extends Buku {
-    
+    public Pelajaran(String judul, String mataKuliah, int batas) {
+        super(judul, "Pelajaran", 0, mataKuliah, batas, 1000);
+    }
 }

@@ -11,5 +11,7 @@ import latkonvertsi2.Master.Buku;
  * @author mariq
  */
 public class Komik extends Buku {
-    
+    public Komik(String judul, int vol, int batas) {
+        super(judul, "Komik", vol, "", batas, 2000);
+    }
 }
